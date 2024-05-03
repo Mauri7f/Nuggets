@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(205, 232, 229);
+}
+
+h1 {
+    text-align: center;
+    border-bottom: solid 5px rgb(77, 134, 156);
+}
+
+p {
+    text-align: center;
+    font-family: Georgia;
+}
+
+.dunk {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: rgb(238, 247, 255);
+    border-radius: 20px;
+}
+
+.vid {
+    margin: 0 auto;
+    width: 600px;
+    padding-top: 50px;
+}
+
+.title {
+    color: black;
+    border-color: rgb(77, 134, 156);
+    margin-top: 50px;
+    border-bottom: solid 5px rgb(77, 134, 156);
+    text-align: center;
+    font-size: 75px;
+    font-weight: 200;
+    justify-content: center;
+}
+
+#main {
+    text-align: center;
+}
+
+.header {
+    padding-top: 50px;
+    font-family: Georgia;
+    font-size: 20px;
+}
