@@ -20,6 +20,11 @@ h2 {
     color: rgb(139, 35, 50)
 }
 
+h3 {
+    color: rgb(255, 198, 39);
+    text-align: center;
+}
+
 p {
     font-size: 20px;
     font-family: Roboto;
@@ -40,8 +45,8 @@ p {
 .byline {
     border-bottom: 1px solid rgb(255, 198, 39);
     border-top: 1px solid rgb(255, 198, 39);
-    color: DarkGrey;
-    font-size: 30px;
+    color: white;
+    font-size: 25px;
     font-weight: 200;
 }
 
@@ -59,3 +64,59 @@ p {
     overflow: scroll;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgb(18, 57, 112);
+    width: 270px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image {
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+    background-image: url('pics/mpj.webp')
+}
+
+.car-2 {
+    background-image: url('pics/murray.webp')
+}
+
+.car-3 {
+    background-image: url('pics/jokic.webp');
+}
+
+.car-4 {
+    background-image: url('pics/ag.webp')
+}
+
+.car-5 {
+    background-image: url('pics/kcp.webp')
+}
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgb(139, 35, 50);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
