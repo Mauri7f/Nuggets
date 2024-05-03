@@ -1,5 +1,7 @@
 body {
     background-color: rgb(13, 34, 64);
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -7,6 +9,10 @@ h1 {
     text-align: center;
     background-color: rgb(18, 57, 112);
     font-size: 150px;
+}
+
+h2 {
+    color: rgb(255, 198, 39);
 }
 
 .title {
@@ -18,8 +24,6 @@ p {
     font-size: 20px;
     font-family: Roboto;
     color: rgb(255, 255, 255);
-    min-width: 200px;
-    max-width: 500px;
     position: relative;
     text-align: center;
     padding: 50px;
@@ -33,7 +37,25 @@ p {
     padding: 50px;
 }
 
-.twitter-tweet {
-    position: center;
-    padding: 50px;
+.byline {
+    border-bottom: 1px solid rgb(255, 198, 39);
+    border-top: 1px solid rgb(255, 198, 39);
+    color: DarkGrey;
+    font-size: 30px;
+    font-weight: 200;
 }
+
+.x {
+    margin: 0 auto;
+    width: 400px;
+}
+
+#main {
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    width: 800px;
+    height: 1000px;
+    overflow: scroll;
+}
+
